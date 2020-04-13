@@ -1,0 +1,79 @@
+.parallax {
+    color: rgb(255, 255, 255);
+    background-image: url('../../assets/matches.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+}
+.parallax_main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+}
+.parallax_bottom {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: -0.03rem;
+}
+.arrow {
+    background-image: url('../../assets/global/curtain-down.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 5vh;
+    width: 5vw;
+    margin: 0 auto;
+}
+.parallax_main > p:nth-child(1){
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+.parallax_main > p:nth-child(2){
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3.9rem;
+    letter-spacing: -0.05em;
+}
+.parallax_main > p:nth-child(3){
+    color: rgba(255, 255, 255, 0.738);
+    font-weight: 100;
+    font-size: 1rem;
+    letter-spacing: -0.07em;
+}
+.parallax_main > p:nth-child(4){
+    color: rgba(255, 255, 255, 0.738);
+    font-weight: 900;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+}
+.parallax_main > button {
+    height: 2rem;
+    width: 6rem;
+    background-color: black;
+    color: white;
+    font-size: 0.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border:black;
+    margin: 1vh;
+}
+hr{
+        margin-top: -1px;
+        width:60%;
+}
+.parallax_main > p {
+    margin: 1rem;
+}
