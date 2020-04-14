@@ -8,12 +8,71 @@
     height: 55vh;
     width: 25vw;
 }
-.rightColumn_top{
-    background-image: url('../../../assets/ai.png');
-    background-size: 75%;
-    background-position-y: 18rem;
-    background-attachment: fixed;
-    height: 28vh;
+.rightColumn {
+    border:2px solid black;
+    height: 55vh;
     width: 50vw;
+}
+
+.rightColumn_top{
+    position: relative;
+    display: flex;
+    background-image: url('../../../assets/ai.png');
+    background-size: cover;
+    background-position: top;
+    height: 50%;
+    width: 100%;
     background-repeat: no-repeat;
+}
+.bottom {
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+.rightColumn_bottomLeft {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-image: url('../../../assets/music.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rightColumn_bottomRight {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-image: url('../../../assets/art.png');
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+.whiteSquare{
+    position: absolute;
+    height: 50%;
+    width: 25%;
+    background-color: white;
+    margin: 0;
+}
+.whiteSquare2{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    margin: 0;
+}
+.whiteSquare3{
+    position: absolute;
+    right: 0;
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    margin: 0;
+}
+
+.whiteSquare,.whiteSquare2,.whiteSquare3 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    text-align: left;
+    padding-left:10px ;
 }

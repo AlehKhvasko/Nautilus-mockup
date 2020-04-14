@@ -33,9 +33,35 @@ export default function Main_container() {
                 </ul>
             </div>
             <div className="rightColumn">
-                <div className="rightColumn_top">1</div>
-                <div className="rightColumn_bottomLeft">2</div>
-                <div className="rightColumn_bottomRight">3</div>
+                <div className="rightColumn_top">
+                    <div className="whiteSquare">
+                        <div className='whiteSquare_content'>
+                            <p>artifical <br/> intelligence </p>
+                            <p>best screen play goes <br/> to the algorithms</p>
+                        </div>
+                        <p>By Arthur I.Muller</p>
+                    </div>
+                </div>
+                <div className="bottom">
+                    <div className="rightColumn_bottomLeft">
+                        <div className="whiteSquare2">
+                            <div className='whiteSquare_content'>
+                                <p>music</p>
+                                <p>How I taught mine<br/>Computer to Write its <br/> Own Music </p>
+                            </div>
+                            <p>By John Sypko</p>
+                        </div>
+                    </div>
+                    <div className="rightColumn_bottomRight">
+                        <div className="whiteSquare3">
+                            <div className='whiteSquare_content'>
+                                <p>Art</p>
+                                <p>Picasso's Got Nothing<br/>on AI Artists</p>
+                            </div>
+                            <p>By Kevin Berger</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
