@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    height: 75vh;
+    width: 100vw;
+}
+.leftColumn {
+    border: 1px solid black;
+    height: 55vh;
+    width: 25vw;
+}
+.rightColumn_top{
+    background-image: url('../../../assets/ai.png');
+    background-size: 75%;
+    background-position-y: 18rem;
+    background-attachment: fixed;
+    height: 28vh;
+    width: 50vw;
+    background-repeat: no-repeat;
+}
